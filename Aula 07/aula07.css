@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    font-family:  "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    background-color: navy;
+}
+.logo{
+    max-width: 140px;
+    padding-left: 100px;
+}
+header{
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+    padding-left: 100px;
+    border-bottom: 4px solid whitesmoke;
+    padding-bottom: 5px;
+}
+.lista{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 25px;
+	padding-right: 20px;
+    list-style: none;
+}
+a{
+    color: aliceblue;
+	text-decoration: none;
+	font-size: 24px;
+}
+.home{
+    background-image: url(https://cdn.atletis.com.br/atletis-website/base/b8b/9c7/4ac/como-organizar-campeonato-de-surf.jpg);
+    background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    height: 100vh;
+    background-attachment: fixed;
+    padding-left: 100px;
+    border-bottom: 4px solid whitesmoke;
+    padding-bottom: 5px;
+}
+.home_info{
+	background-color: black;
+	padding: 30px;
+	border-radius: 20px;
+	color: whitesmoke;
+	font-family:  "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 20px;
+    text-align: center;
+}
+.home_text{
+    font-size: 24px;
+}
+.home_header{
+    font-family: 'Rubik Bubbles', cursive;
+	font-size: 36px;
+}
+.home_botao{
+    text-decoration: none;
+	color: white;
+	background-color: blue;
+	padding: 10px 20px;
+	display: inline-block;
+	font-size: 28px;
+	border-radius: 20px;
+}
+.categorias{
+	color: white;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 0 30px;
+    padding-left: 100px;
+    border-bottom: 4px solid whitesmoke;
+    padding-bottom: 5px;
+}
+
+.categorias_titulo{
+	font-size: 45px;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+.caixa_maior{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 900px;
+}
+.caixa_menor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        border: 1px solid white;
+        padding: 50px;
+}
+.titulo_interno{
+	font-size: 30px;
+}
+
+.texto_interno{
+	text-align: center;
+    font-size: 12px;
+}
+.butao_interno{
+	background-color: transparent;
+	border: 1px solid white;
+	padding: 10px 20px;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	border-radius: 8px;
+}
+.sobre{
+	height: 80vh;
+    background-image: url(https://d3qf8nvav5av0u.cloudfront.net/image/5022b344b75da40448a354a4cb5d4edb.jpg?&x=1280&y=720&cx=0&cy=62&cw=4000&ch=2250&icq=74&sig=101c1c3d1a3a179b84584e57d81136b0);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    padding-left: 100px;
+    height: 100vh;
+}
+
+.sobre_info{
+	background-color: rgba(255,255,255,0.8);
+	max-width: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap:  25px;
+	padding: 25px;
+	border-radius: 20px;
+}
+
+.sobre_titulo{
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.sobre_texto{
+	text-align: center;
+	line-height: 1.6;
+	font-size: 18px;
+}
+.footer{
+	margin-top: 0px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+	border-top: 1px solid white;
+	padding-top: 20px;
+}
+.footer_titulo{
+	font-size: 20px;
+}
+
+.footer_texto{
+	color: red;
+	font-size: 16px;
+}
+
+.footer_detalhe{
+	font-size: 14px;
+}
